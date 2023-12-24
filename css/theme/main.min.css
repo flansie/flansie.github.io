@@ -6314,12 +6314,12 @@ pre {
 }
 .uk-grid.uk-grid-column-large,
 .uk-grid.uk-grid-large {
-  margin-left: calc(var(--sizes-grid-large) * -1) !important;
+  margin-middle: calc(var(--sizes-grid-large) * -1) !important;
 }
 .uk-grid.uk-grid-column-large > *,
 .uk-grid.uk-grid-large > * {
   --gap-size: var(--sizes-grid-large);
-  padding-left: var(--sizes-grid-large) !important;
+  padding-middle: var(--sizes-grid-large) !important;
 }
 * + .uk-grid-margin-large,
 .uk-grid + .uk-grid-large,
