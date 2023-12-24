@@ -19,6 +19,7 @@
       type="font/woff2"
       crossorigin
     />
+	
     <link
       rel="preload"
       href="fonts/unicons/Unicons.woff?lkolxg"
@@ -26,6 +27,7 @@
       type="font/woff"
       crossorigin
     />
+	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <link
       rel="preload"
       href="https://cdn.jsdelivr.net/npm/swiper@8.3.2/swiper-bundle.min.css"
@@ -310,10 +312,6 @@
             >
               <div class="uk-navbar-top">
                 <div class="uk-navbar-left uk-flex-1@m">
-                  <a
-                    class="uk-logo uk-navbar-item uk-h4 uk-h3@m uk-margin-remove"
-                    href="/html/nerko/main/landing-04"
-                  >
                     <img
                       class="uk-visible dark:uk-hidden"
                       width="120"
@@ -337,31 +335,16 @@
                     data-uk-scrollspy-nav="closest: li; scroll: true; offset: 40"
                     data-uk-navbar-bound
                   >
-                    <li><a href="#uni_whyus">Advantages</a></li>
+                    <li><a href="#uni_cta">Home</a></li>
+					<li><a href="#uni_whyus">Advantages</a></li>
                     <li><a href="#uni_about">About</a></li>
-                    <li><a href="#uni_collection">Works</a></li>
                     <li><a href="#uni_collection">Works</a></li>
                   </ul>
                 </div>
 
                 <div class="uk-navbar-right uk-flex-1 uk-flex-right">
                   <div class="uk-navbar-item uk-visible@m">
-                    <ul class="uk-subnav uk-subnav-small">
-                      <li>
-                        <a href="https://twitter.com/unistudioco"
-                          ><i
-                            class="uk-icon uk-icon-medium unicon-logo-twitter"
-                          ></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="https://discord.com/unistudioco"
-                          ><i
-                            class="uk-icon uk-icon-medium unicon-logo-discord"
-                          ></i
-                        ></a>
-                      </li>
-                    </ul>
+
                   </div>
 
                   <div class="uk-navbar-item uk-hidden@m">
@@ -381,282 +364,117 @@
       <!-- Header end -->
 
       <!-- Hero start -->
-      <div
-        class="uni-hero uk-section-2xlarge uk-padding-2xlarge-bottom uk-panel uk-overflow-hidden dark:uk-background-gray-100 swiper-parent"
-      >
-        <div class="uk-position-top" data-uk-height-viewport="">
-          <div
-            class="uk-position-cover uk-background-cover uk-opacity-20"
-            data-src="images/artwork.jpg"
-            data-uk-img
-          ></div>
-          <div
-            class="uk-position-cover uk-background-cover dark:uk-hidden"
-            style="
-              background: linear-gradient(to top, white 25%, transparent 75%);
-            "
-          ></div>
-          <div
-            class="uk-position-cover uk-background-cover uk-hidden dark:uk-visible"
-            style="
-              background: linear-gradient(
-                to top,
-                var(--color-gray-100) 25%,
-                transparent 75%
-              );
-            "
-          ></div>
-        </div>
-        <div class="uk-container">
-          <div class="uk-panel">
-            <img
-              class="uk-position-top-right uk-text-primary uni-animation-bounce uni-animation-delay-large uk-hidden@s"
-              width="42"
-              src="images/objects/star-01.svg"
-              alt="object"
-              style="top: -16%; right: 24%"
-              data-uk-svg
-              data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 400;"
-            />
-            <img
-              class="uk-position-top-right uk-text-primary uni-animation-bounce uk-hidden@s"
-              width="28"
-              src="images/objects/star-01.svg"
-              alt="object"
-              style="top: -12%; right: 38%"
-              data-uk-svg
-              data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 400;"
-            />
-            <img
-              class="uk-position-top-right uk-text-primary uni-animation-bounce uk-visible@l"
-              width="32"
-              src="images/objects/star-01.svg"
-              alt="object"
-              style="top: 2%; right: 2%"
-              data-uk-svg
-              data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 400;"
-            />
-            <img
-              class="uk-position-top-left uk-text-secondary uni-animation-bounce uk-visible@l"
-              width="32"
-              src="images/objects/star-01.svg"
-              alt="object"
-              style="top: 2%; left: 2%"
-              data-uk-svg
-              data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 400;"
-            />
-            <div
-              class="uk-grid uk-grid-2xlarge@m uk-child-width-1-1@m"
-              data-uk-grid=""
-            >
-              <div>
-                <div class="uk-panel uk-text-center uk-margin-top">
-                  <h1 class="uk-h2 uk-h1@s uk-heading-d1@m uk-text-uppercase">
-                    FLANSIE & ROBLOX <br class="uk-visible@m" />
-                    <span class="uk-text-gradient">GAMEREADY MODELS</span>
-                  </h1>
+      <div class="uni-hero uk-section-2xlarge uk-padding-2xlarge-bottom uk-panel uk-overflow-hidden dark:uk-background-gray-100 swiper-parent">
+                <div class="uk-position-top" data-uk-height-viewport="">
+                    <div class="uk-position-cover uk-background-cover uk-opacity-20" data-src="images/hero-image.jpg" data-uk-img></div>
+                    <div class="uk-position-cover uk-background-cover dark:uk-hidden" style="background: linear-gradient(to top, white 25%, transparent 75%)"></div>
+                    <div class="uk-position-cover uk-background-cover uk-hidden dark:uk-visible" style="background: linear-gradient(to top, var(--color-gray-100) 25%, transparent 75%)"></div>
                 </div>
-              </div>
-              <div>
-                <div class="uk-panel uk-overflow-hidden">
-                  <img
-                    class="uk-position-top-right uk-text-secondary uni-animation-bounce uk-visible@l"
-                    width="48"
-                    src="images/objects/star-01.svg"
-                    alt="object"
-                    style="top: 6%; right: 9%"
-                    data-uk-svg
-                    data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 400;"
-                  />
-                  <img
-                    class="uk-position-top-left uk-text-primary uni-animation-bounce uk-visible@l"
-                    width="48"
-                    src="images/objects/star-01.svg"
-                    alt="object"
-                    style="top: 6%; left: 9%"
-                    data-uk-svg
-                    data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 400;"
-                  />
-                  <div
-                    class="uk-grid-xsmall uk-grid@m uk-flex-middle uk-flex-center uk-grid"
-                    data-uk-grid=""
-                  >
-                    <div class="uk-width-3-12 uk-width-4-12@m">
-                      <div
-                        class="uk-grid-xsmall uk-grid@m uk-child-width-1-2@m uk-flex-middle uk-grid"
-                        data-uk-grid=""
-                      >
-                        <div class="uk-visible@m">
-                          <div>
-                            <div
-                              class="uk-card uk-card-2xsmall uk-card-default uk-radius-xlarge dark:uk-background-white-10"
-                            >
-                              <div
-                                class="uk-panel uk-overflow-hidden uk-radius-large"
-                              >
-                                <canvas width="600" height="800"></canvas>
-                                <img
-                                  src="images/collections/05.jpg"
-                                  alt="Artwork"
-                                  class="uk-cover"
-                                  data-uk-cover=""
-                                />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div>
-                          <div
-                            class="uk-panel uk-grid-xsmall uk-grid@m uk-grid"
-                            data-uk-grid=""
-                          >
+                <div class="uk-container">
+                    <div class="uk-panel">
+                        <img class="uk-position-top-right uk-text-primary uni-animation-bounce uni-animation-delay-large uk-hidden@s" width="42" src="assets/images/objects/star-01.svg" alt="object" style="top: -16%; right: 24%" data-uk-svg data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 400;">
+                        <img class="uk-position-top-right uk-text-primary uni-animation-bounce uk-hidden@s" width="28" src="images/objects/star-01.svg" alt="object" style="top: -12%; right: 38%" data-uk-svg data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 400;">
+                        <img class="uk-position-top-right uk-text-primary uni-animation-bounce uk-visible@l" width="32" src="images/objects/star-01.svg" alt="object" style="top: 2%; right: 2%" data-uk-svg data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 400;">
+                        <img class="uk-position-top-left uk-text-secondary uni-animation-bounce uk-visible@l" width="32" src="images/objects/star-01.svg" alt="object" style="top: 2%; left: 2%" data-uk-svg data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 400;">
+                        <div class="uk-grid uk-grid-2xlarge@m uk-child-width-1-1@m" data-uk-grid="">
                             <div>
-                              <div
-                                class="uk-card uk-card-2xsmall uk-card-default uk-radius-xlarge dark:uk-background-white-10"
-                              >
-                                <div
-                                  class="uk-panel uk-overflow-hidden uk-radius-large"
-                                >
-                                  <canvas
-                                    class="uk-visible@m"
-                                    width="200"
-                                    height="170"
-                                  ></canvas>
-                                  <canvas
-                                    class="uk-hidden@m"
-                                    width="300"
-                                    height="298"
-                                  ></canvas>
-                                  <img
-                                    src="images/VH.png"
-                                    alt="Artwork"
-                                    class="uk-cover"
-                                    data-uk-cover
-                                  />
+                                <div class="uk-panel uk-text-center uk-margin-top">
+                                    <h1 class="uk-h2 uk-h1@s uk-heading-d1@m uk-text-uppercase">
+                                        Flansie <br class="uk-visible@m">
+                                        <span class="uk-text-gradient">& Roblox</span>
+                                    </h1>
                                 </div>
-                              </div>
                             </div>
                             <div>
-                              <div
-                                class="uk-card uk-card-2xsmall uk-card-default uk-radius-xlarge dark:uk-background-white-10"
-                              >
-                                <div
-                                  class="uk-panel uk-overflow-hidden uk-radius-large"
-                                >
-                                  <canvas width="300" height="298"></canvas>
-                                  <img
-                                    src="images/collections/004.jpg"
-                                    alt="Artwork"
-                                    class="uk-cover"
-                                    data-uk-cover
-                                  />
+                                <div class="uk-panel uk-overflow-hidden">
+                                    <img class="uk-position-top-right uk-text-secondary uni-animation-bounce uk-visible@l" width="48" src="images/objects/star-01.svg" alt="object" style="top: 6%; right: 9%" data-uk-svg data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 400;">
+                                    <img class="uk-position-top-left uk-text-primary uni-animation-bounce uk-visible@l" width="48" src="images/objects/star-01.svg" alt="object" style="top: 6%; left: 9%" data-uk-svg data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 400;">
+                                    <div class="uk-grid-xsmall uk-grid@m uk-flex-middle uk-flex-center uk-grid" data-uk-grid="">
+                                        <div class="uk-width-3-12 uk-width-4-12@m">
+                                            <div class="uk-grid-xsmall uk-grid@m uk-child-width-1-2@m uk-flex-middle uk-grid" data-uk-grid="">
+                                                <div class="uk-visible@m">
+                                                    <div>
+                                                        <div class="uk-card uk-card-2xsmall uk-card-default uk-radius-xlarge dark:uk-background-white-10">
+                                                            <div class="uk-panel uk-overflow-hidden uk-radius-large">
+                                                                <canvas width="600" height="800"></canvas>
+                                                                <img src="images/collections/Spot.png" alt="Artwork" class="uk-cover" data-uk-cover="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="uk-panel uk-grid-xsmall uk-grid@m uk-grid" data-uk-grid="">
+                                                        <div>
+                                                            <div class="uk-card uk-card-2xsmall uk-card-default uk-radius-xlarge dark:uk-background-white-10">
+                                                                <div class="uk-panel uk-overflow-hidden uk-radius-large">
+                                                                    <canvas class="uk-visible@m" width="200" height="170"></canvas>
+                                                                    <canvas class="uk-hidden@m" width="300" height="298"></canvas>
+                                                                    <img src="images/collections/Gwenie.png" alt="Artwork" class="uk-cover" data-uk-cover>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div>
+                                                            <div class="uk-card uk-card-2xsmall uk-card-default uk-radius-xlarge dark:uk-background-white-10">
+                                                                <div class="uk-panel uk-overflow-hidden uk-radius-large">
+                                                                    <canvas width="300" height="298"></canvas>
+                                                                    <img src="images/collections/Spider.png" alt="Artwork" class="uk-cover" data-uk-cover>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <div class="uk-card uk-card-2xsmall uk-card-default uk-radius-xlarge dark:uk-background-white-10">
+                                                <div class="uk-panel uk-overflow-hidden uk-radius-large">
+                                                    <canvas width="400" height="600"></canvas>
+                                                    <img src="images/collections/Sasuke.png" alt="Artwork" class="uk-cover" data-uk-cover>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-3-12 uk-width-4-12@m">
+                                            <div class="uk-grid-xsmall uk-grid@m uk-child-width-1-2@m uk-flex-middle uk-grid" data-uk-grid="">
+                                                <div>
+                                                    <div class="uk-panel uk-grid-xsmall uk-grid@m uk-grid" data-uk-grid="">
+                                                        <div>
+                                                            <div class="uk-card uk-card-2xsmall uk-card-default uk-radius-xlarge dark:uk-background-white-10">
+                                                                <div class="uk-panel uk-overflow-hidden uk-radius-large">
+                                                                    <canvas width="300" height="298"></canvas>
+                                                                    <img src="images/collections/Arts.png" alt="Artwork" class="uk-cover" data-uk-cover>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div>
+                                                            <div class="uk-card uk-card-2xsmall uk-card-default uk-radius-xlarge dark:uk-background-white-10">
+                                                                <div class="uk-panel uk-overflow-hidden uk-radius-large">
+                                                                    <canvas class="uk-visible@m" width="200" height="170"></canvas>
+                                                                    <canvas class="uk-hidden@m" width="300" height="298"></canvas>
+                                                                    <img src="images/collections/Mino.png" alt="Artwork" class="uk-cover" data-uk-cover>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="uk-visible@m">
+                                                    <div>
+                                                        <div class="uk-card uk-card-2xsmall uk-card-default uk-radius-xlarge dark:uk-background-white-10">
+                                                            <div class="uk-panel uk-overflow-hidden uk-radius-large">
+                                                                <canvas width="600" height="800"></canvas>
+                                                                <img src="images/collections/Demo.png" alt="Artwork" class="uk-cover" data-uk-cover>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                              </div>
                             </div>
-                          </div>
                         </div>
-                      </div>
                     </div>
-                    <div class="uk-width-expand">
-                      <div
-                        class="uk-card uk-card-2xsmall uk-card-default uk-radius-xlarge dark:uk-background-white-10"
-                      >
-                        <div
-                          class="uk-panel uk-overflow-hidden uk-radius-large"
-                        >
-                          <canvas width="400" height="600"></canvas>
-                          <img
-                            src="images/collections/001.jpg"
-                            alt="Artwork"
-                            class="uk-cover"
-                            data-uk-cover
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div class="uk-width-3-12 uk-width-4-12@m">
-                      <div
-                        class="uk-grid-xsmall uk-grid@m uk-child-width-1-2@m uk-flex-middle uk-grid"
-                        data-uk-grid=""
-                      >
-                        <div>
-                          <div
-                            class="uk-panel uk-grid-xsmall uk-grid@m uk-grid"
-                            data-uk-grid=""
-                          >
-                            <div>
-                              <div
-                                class="uk-card uk-card-2xsmall uk-card-default uk-radius-xlarge dark:uk-background-white-10"
-                              >
-                                <div
-                                  class="uk-panel uk-overflow-hidden uk-radius-large"
-                                >
-                                  <canvas width="300" height="298"></canvas>
-                                  <img
-                                    src="images/M44.png"
-                                    alt="Artwork"
-                                    class="uk-cover"
-                                    data-uk-cover
-                                  />
-                                </div>
-                              </div>
-                            </div>
-                            <div>
-                              <div
-                                class="uk-card uk-card-2xsmall uk-card-default uk-radius-xlarge dark:uk-background-white-10"
-                              >
-                                <div
-                                  class="uk-panel uk-overflow-hidden uk-radius-large"
-                                >
-                                  <canvas
-                                    class="uk-visible@m"
-                                    width="200"
-                                    height="170"
-                                  ></canvas>
-                                  <canvas
-                                    class="uk-hidden@m"
-                                    width="300"
-                                    height="298"
-                                  ></canvas>
-                                  <img
-                                    src="images/collections/19.jpg"
-                                    alt="Artwork"
-                                    class="uk-cover"
-                                    data-uk-cover
-                                  />
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="uk-visible@m">
-                          <div>
-                            <div
-                              class="uk-card uk-card-2xsmall uk-card-default uk-radius-xlarge dark:uk-background-white-10"
-                            >
-                              <div
-                                class="uk-panel uk-overflow-hidden uk-radius-large"
-                              >
-                                <canvas width="600" height="800"></canvas>
-                                <img
-                                  src="images/Knife.png"
-                                  alt="Artwork"
-                                  class="uk-cover"
-                                  data-uk-cover
-                                />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
       <img
         class="uk-width-small uk-flex-center uk-margin-auto uk-margin-medium uk-margin-large@m uk-text-primary"
         src="images/divider-02.png"
@@ -721,7 +539,7 @@
                             class="uk-card uk-card-xsmall uk-radius-medium uk-background-gradient uk-flex-middle uk-flex-center uk-margin-medium-bottom@m"
                           >
                             <i
-                              class="uk-icon-medium uk-icon-medium@m unicon-wallet uk-text-gray-10"
+                              class="uk-icon-medium uk-icon-medium@m uil uil-10-plus uk-text-gray-10"
                             ></i>
                           </div>
                         </div>
@@ -746,7 +564,7 @@
                             class="uk-card uk-card-xsmall uk-radius-medium uk-background-gradient uk-flex-middle uk-flex-center uk-margin-medium-bottom@m"
                           >
                             <i
-                              class="uk-icon-medium uk-icon-medium@m unicon-scalpel-lasso uk-text-gray-10"
+                              class="uk-icon-medium uk-icon-medium@m uil uil-fast-mail uk-text-gray-10"
                             ></i>
                           </div>
                         </div>
@@ -771,7 +589,7 @@
                             class="uk-card uk-card-xsmall uk-radius-medium uk-background-gradient uk-flex-middle uk-flex-center uk-margin-medium-bottom@m"
                           >
                             <i
-                              class="uk-icon-medium uk-icon-medium@m unicon-flash uk-text-gray-10"
+                              class="uk-icon-medium uk-icon-medium@m uil uil-at uk-text-gray-10"
                             ></i>
                           </div>
                         </div>
@@ -789,7 +607,7 @@
                 </div>
               </div>
               <div class="uk-width-4-12@m">
-                <div class="uk-panel uk-overflow-hidden uk-flex-middle">
+                <div class="uk-panel uk-overflow-hidden uni-animation-bounce uk-flex-middle">
                   <img src="images/land4.png" alt="Artwork" />
                 </div>
               </div>
@@ -808,7 +626,7 @@
                             class="uk-card uk-card-xsmall uk-radius-medium uk-background-gradient uk-flex-middle uk-flex-center uk-margin-medium-bottom@m"
                           >
                             <i
-                              class="uk-icon-medium uk-icon-medium@m unicon-spray-paint uk-text-gray-10"
+                              class="uk-icon-medium uk-icon-medium@m uil uil-transaction uk-text-gray-10"
                             ></i>
                           </div>
                         </div>
@@ -833,7 +651,7 @@
                             class="uk-card uk-card-xsmall uk-radius-medium uk-background-gradient uk-flex-middle uk-flex-center uk-margin-medium-bottom@m"
                           >
                             <i
-                              class="uk-icon-medium uk-icon-medium@m unicon-gamification uk-text-gray-10"
+                              class="uk-icon-medium uk-icon-medium@m uil uil-comment-edit uk-text-gray-10"
                             ></i>
                           </div>
                         </div>
@@ -858,7 +676,7 @@
                             class="uk-card uk-card-xsmall uk-radius-medium uk-background-gradient uk-flex-middle uk-flex-center uk-margin-medium-bottom@m"
                           >
                             <i
-                              class="uk-icon-medium uk-icon-medium@m unicon-model-alt uk-text-gray-10"
+                              class="uk-icon-medium uk-icon-medium@m uil uil-analysis uk-text-gray-10"
                             ></i>
                           </div>
                         </div>
@@ -912,15 +730,14 @@
               <div>
                 <div class="uk-panel">
                   <h3 class="uk-h3 uk-h2@s uk-heading-d2@m uk-text-uppercase">
-                    About <span class="uk-text-gradient">FLANSIE</span>
+                    About &<span class="uk-text-gradient"> PRICING</span>
                   </h3>
                   <p class="uk-text-large">
-                    I'm a professional in roblox modeling and have been doing it for a two years
+                    I am an artist and designer with 3 years of experience including 3D Modeling, Texturing, Animation and Illustrations
                   </p>
                   <p class="uk-text-large">
-                    Social media marketing through turn key influencer marketing
-                    compaigns and social media account managment to grow your
-                    digital art and drive your collection
+                    Below are the average prices for my work. They are not universal, but this is what you can count on. 
+					We can discuss a more detailed price in person. This price includes the FBX/OBJ model itself and Texture files
                   </p>
                   <div class="uk-panel uk-margin-large-top">
                     <div
@@ -934,9 +751,9 @@
                           <h5
                             class="uk-h4 uk-h2@m uk-margin-xsmall uk-text-gradient"
                           >
-                            93%
+                            5$
                           </h5>
-                          <span>Sync & track</span>
+                          <span>Simple Model</span>
                         </div>
                       </div>
                       <div>
@@ -946,9 +763,9 @@
                           <h5
                             class="uk-h4 uk-h2@m uk-margin-xsmall uk-text-gradient"
                           >
-                            2.5X
+                            15$
                           </h5>
-                          <span>Up value.</span>
+                          <span>Average Model</span>
                         </div>
                       </div>
                       <div>
@@ -958,9 +775,9 @@
                           <h5
                             class="uk-h4 uk-h2@m uk-margin-xsmall uk-text-gradient"
                           >
-                            50K+
+                            30$
                           </h5>
-                          <span>Of members.</span>
+                          <span>Complex Model</span>
                         </div>
                       </div>
                     </div>
@@ -974,86 +791,6 @@
 
       <!-- about end -->
 
-      <!-- numbers start -->
-      <div id="uni_numbers" class="uni-numbers uk-section uk-section-large@m">
-        <div class="uk-container">
-          <div class="uk-panel">
-            <img
-              class="uk-position-bottom-left uni-animation-bounce uni-animation-delay-large uk-visible@l"
-              width="32"
-              src="images/objects/star-01.svg"
-              alt="Object"
-              style="bottom: -32%; left: 30%"
-            />
-            <img
-              class="uk-position-top-right uni-animation-bounce uk-visible@l"
-              width="24"
-              src="images/objects/star-01.svg"
-              alt="Object"
-              style="top: -25%; right: 25%"
-            />
-            <div
-              class="uk-grid uk-grid-large uk-grid-2xlarge@m uk-child-width-1-2 uk-child-width-expand@m uk-text-center uk-text-muted"
-              data-uk-grid=""
-            >
-              <div>
-                <div class="uk-panel">
-                  <i
-                    class="uk-icon uk-icon-large uk-icon-xlarge@m unicon-sub-volume uk-text-gradient"
-                  ></i>
-                  <h4
-                    class="uk-h3 uk-heading-d3@m uk-margin-xsmall uk-margin@m"
-                  >
-                    100+
-                  </h4>
-                  <span>Closed Orders</span>
-                </div>
-              </div>
-              <div>
-                <div class="uk-panel">
-                  <i
-                    class="uk-icon uk-icon-large uk-icon-xlarge@m unicon-user-avatar uk-text-gradient"
-                  ></i>
-                  <h4
-                    class="uk-h3 uk-heading-d3@m uk-margin-xsmall uk-margin@m"
-                  >
-                    40+
-                  </h4>
-                  <span>Happy Clients</span>
-                </div>
-              </div>
-              <div>
-                <div class="uk-panel">
-                  <i
-                    class="uk-icon uk-icon-large uk-icon-xlarge@m unicon-theater uk-text-gradient"
-                  ></i>
-                  <h4
-                    class="uk-h3 uk-heading-d3@m uk-margin-xsmall uk-margin@m"
-                  >
-                    1860+
-                  </h4>
-                  <span>Members</span>
-                </div>
-              </div>
-              <div>
-                <div class="uk-panel">
-                  <i
-                    class="uk-icon uk-icon-large uk-icon-xlarge@m unicon-rocket uk-text-gradient"
-                  ></i>
-                  <h4
-                    class="uk-h3 uk-heading-d3@m uk-margin-xsmall uk-margin@m"
-                  >
-                    23.4x
-                  </h4>
-                  <span>Estimated value</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- numbers end -->
 
       <img
         class="uk-width-small uk-flex-center uk-margin-auto uk-margin-medium uk-margin-large@m uk-text-primary"
@@ -1084,525 +821,205 @@
               class="uk-grid uk-grid-small@m uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-3@m"
               data-uk-grid=""
             >
-              <div>
-                <div
-                  class="uk-card uk-card-small uk-radius uk-radius-large@m uk-border uk-box-shadow-xsmall dark:uk-background-gray-90"
-                >
-                  <div class="uk-panel">
-                    <div
-                      class="uk-grid uk-grid-xsmall uk-flex-between uk-flex-middle"
-                      data-uk-grid=""
-                    >
-                      <div class="uk-width-1-4">
-                        <div class="uk-panel">
-                          <canvas width="100" height="100"></canvas>
-                          <img
-                            src="images/collections/001.jpg"
-                            alt="Artwork"
-                            class="uk-radius-2xlarge uk-cover"
-                            data-uk-cover=""
-                          />
-                          <a href="#" class="uk-position-cover"></a>
-                        </div>
-                      </div>
-                      <div class="uk-width-expand">
-                        <h5 class="uk-h6 uk-h5@m uk-margin-remove">
-                          <a href="#" class="uk-link-reset">#Polly Doll</a>
-                        </h5>
-                        <span class="uk-text-small">@By TheSalvare</span>
-                      </div>
-                    </div>
-                    <div class="uk-panel uk-margin-medium-top">
-                      <div
-                        class="uk-grid uk-grid-xsmall uk-child-width-1-2 uk-grid-match"
-                        data-uk-grid=""
-                      >
-                        <div>
-                          <div
-                            class="uk-panel uk-overflow-hidden uk-radius-small"
-                          >
-                            <canvas width="400" height="350"></canvas>
-                            <img
-                              src="images/collections/001.jpg"
-                              alt="Artwork"
-                              class="uk-cover"
-                              data-uk-cover=""
-                            />
-                            <a href="#" class="uk-position-cover"></a>
-                          </div>
-                        </div>
-                        <div>
-                          <div class="uk-panel">
-                            <div class="uk-grid uk-grid-xsmall" data-uk-grid="">
-                              <div>
-                                <div
-                                  class="uk-panel uk-overflow-hidden uk-radius-small"
-                                >
-                                  <canvas width="150" height="120"></canvas>
-                                  <img
-                                    src="images/collections/002.jpg"
-                                    alt="Artwork"
-                                    class="uk-cover"
-                                    data-uk-cover=""
-                                  />
-                                  <a href="#" class="uk-position-cover"></a>
-                                </div>
-                              </div>
-                              <div>
-                                <div
-                                  class="uk-panel uk-overflow-hidden uk-radius-small"
-                                >
-                                  <canvas width="150" height="120"></canvas>
-                                  <img
-                                    src="images/collections/16.jpg"
-                                    alt="Artwork"
-                                    class="uk-cover"
-                                    data-uk-cover=""
-                                  />
-                                  <a href="#" class="uk-position-cover"></a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+              
+			  <div>
+                <div class="uk-panel uk-radius-large uk-overflow-hidden">
+                  <canvas width="560" height="560"></canvas>
+                  <img
+                    src="images/collections/Mino.png"
+                    alt="Artwork"
+                    class="uk-cover"
+                    data-uk-cover
+                  />
                 </div>
               </div>
-              <div>
-                <div
-                  class="uk-card uk-card-small uk-radius uk-radius-large@m uk-border uk-box-shadow-xsmall dark:uk-background-gray-90"
-                >
-                  <div class="uk-panel">
-                    <div
-                      class="uk-grid uk-grid-xsmall uk-flex-between uk-flex-middle"
-                      data-uk-grid=""
-                    >
-                      <div class="uk-width-1-4">
-                        <div class="uk-panel">
-                          <canvas width="100" height="100"></canvas>
-                          <img
-                            src="images/collections/17.jpg"
-                            alt="Artwork"
-                            class="uk-radius-2xlarge uk-cover"
-                            data-uk-cover=""
-                          />
-                          <a href="#" class="uk-position-cover"></a>
-                        </div>
-                      </div>
-                      <div class="uk-width-expand">
-                        <h5 class="uk-h6 uk-h5@m uk-margin-remove">
-                          <a href="#" class="uk-link-reset">#Metaverse</a>
-                        </h5>
-                        <span class="uk-text-small">@By TheSalvare</span>
-                      </div>
-                    </div>
-                    <div class="uk-panel uk-margin-medium-top">
-                      <div
-                        class="uk-grid uk-grid-xsmall uk-child-width-1-2 uk-grid-match"
-                        data-uk-grid=""
-                      >
-                        <div>
-                          <div
-                            class="uk-panel uk-overflow-hidden uk-radius-small"
-                          >
-                            <canvas width="400" height="350"></canvas>
-                            <img
-                              src="images/collections/004.jpg"
-                              alt="Artwork"
-                              class="uk-cover"
-                              data-uk-cover=""
-                            />
-                            <a href="#" class="uk-position-cover"></a>
-                          </div>
-                        </div>
-                        <div>
-                          <div class="uk-panel">
-                            <div class="uk-grid uk-grid-xsmall" data-uk-grid="">
-                              <div>
-                                <div
-                                  class="uk-panel uk-overflow-hidden uk-radius-small"
-                                >
-                                  <canvas width="150" height="120"></canvas>
-                                  <img
-                                    src="images/collections/05.jpg"
-                                    alt="Artwork"
-                                    class="uk-cover"
-                                    data-uk-cover=""
-                                  />
-                                  <a href="#" class="uk-position-cover"></a>
-                                </div>
-                              </div>
-                              <div>
-                                <div
-                                  class="uk-panel uk-overflow-hidden uk-radius-small"
-                                >
-                                  <canvas width="150" height="120"></canvas>
-                                  <img
-                                    src="images/collections/17.jpg"
-                                    alt="Artwork"
-                                    class="uk-cover"
-                                    data-uk-cover=""
-                                  />
-                                  <a href="#" class="uk-position-cover"></a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+			  
+			  <div>
+                <div class="uk-panel uk-radius-large uk-overflow-hidden">
+                  <canvas width="560" height="560"></canvas>
+                  <img
+                    src="images/collections/Demo.png"
+                    alt="Artwork"
+                    class="uk-cover"
+                    data-uk-cover
+                  />
                 </div>
               </div>
-              <div>
-                <div
-                  class="uk-card uk-card-small uk-radius uk-radius-large@m uk-border uk-box-shadow-xsmall dark:uk-background-gray-90"
-                >
-                  <div class="uk-panel">
-                    <div
-                      class="uk-grid uk-grid-xsmall uk-flex-between uk-flex-middle"
-                      data-uk-grid=""
-                    >
-                      <div class="uk-width-1-4">
-                        <div class="uk-panel">
-                          <canvas width="100" height="100"></canvas>
-                          <img
-                            src="images/collections/07.jpg"
-                            alt="Artwork"
-                            class="uk-radius-2xlarge uk-cover"
-                            data-uk-cover=""
-                          />
-                          <a href="#" class="uk-position-cover"></a>
-                        </div>
-                      </div>
-                      <div class="uk-width-expand">
-                        <h5 class="uk-h6 uk-h5@m uk-margin-remove">
-                          <a href="#" class="uk-link-reset">#Alec Art</a>
-                        </h5>
-                        <span class="uk-text-small">@Georgijevic</span>
-                      </div>
-                    </div>
-                    <div class="uk-panel uk-margin-medium-top">
-                      <div
-                        class="uk-grid uk-grid-xsmall uk-child-width-1-2 uk-grid-match"
-                        data-uk-grid=""
-                      >
-                        <div>
-                          <div
-                            class="uk-panel uk-overflow-hidden uk-radius-small"
-                          >
-                            <canvas width="400" height="350"></canvas>
-                            <img
-                              src="images/collections/07.jpg"
-                              alt="Artwork"
-                              class="uk-cover"
-                              data-uk-cover=""
-                            />
-                            <a href="#" class="uk-position-cover"></a>
-                          </div>
-                        </div>
-                        <div>
-                          <div class="uk-panel">
-                            <div class="uk-grid uk-grid-xsmall" data-uk-grid="">
-                              <div>
-                                <div
-                                  class="uk-panel uk-overflow-hidden uk-radius-small"
-                                >
-                                  <canvas width="150" height="120"></canvas>
-                                  <img
-                                    src="images/collections/08.jpg"
-                                    alt="Artwork"
-                                    class="uk-cover"
-                                    data-uk-cover=""
-                                  />
-                                  <a href="#" class="uk-position-cover"></a>
-                                </div>
-                              </div>
-                              <div>
-                                <div
-                                  class="uk-panel uk-overflow-hidden uk-radius-small"
-                                >
-                                  <canvas width="150" height="120"></canvas>
-                                  <img
-                                    src="images/collections/003.jpg"
-                                    alt="Artwork"
-                                    class="uk-cover"
-                                    data-uk-cover=""
-                                  />
-                                  <a href="#" class="uk-position-cover"></a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+			  
+			  <div>
+                <div class="uk-panel uk-radius-large uk-overflow-hidden">
+                  <canvas width="560" height="560"></canvas>
+                  <img
+                    src="images/collections/sPIDER.png"
+                    alt="Artwork"
+                    class="uk-cover"
+                    data-uk-cover
+                  />
                 </div>
               </div>
-              <div>
-                <div
-                  class="uk-card uk-card-small uk-radius uk-radius-large@m uk-border uk-box-shadow-xsmall dark:uk-background-gray-90"
-                >
-                  <div class="uk-panel">
-                    <div
-                      class="uk-grid uk-grid-xsmall uk-flex-between uk-flex-middle"
-                      data-uk-grid=""
-                    >
-                      <div class="uk-width-1-4">
-                        <div class="uk-panel">
-                          <canvas width="100" height="100"></canvas>
-                          <img
-                            src="images/collections/004.jpg"
-                            alt="Artwork"
-                            class="uk-radius-2xlarge uk-cover"
-                            data-uk-cover=""
-                          />
-                          <a href="#" class="uk-position-cover"></a>
-                        </div>
-                      </div>
-                      <div class="uk-width-expand">
-                        <h5 class="uk-h6 uk-h5@m uk-margin-remove">
-                          <a href="#" class="uk-link-reset">#Toxic Poeth</a>
-                        </h5>
-                        <span class="uk-text-small">@By Yayoi</span>
-                      </div>
-                    </div>
-                    <div class="uk-panel uk-margin-medium-top">
-                      <div
-                        class="uk-grid uk-grid-xsmall uk-child-width-1-2 uk-grid-match"
-                        data-uk-grid=""
-                      >
-                        <div>
-                          <div
-                            class="uk-panel uk-overflow-hidden uk-radius-small"
-                          >
-                            <canvas width="400" height="350"></canvas>
-                            <img
-                              src="images/collections/11.jpg"
-                              alt="Artwork"
-                              class="uk-cover"
-                              data-uk-cover=""
-                            />
-                            <a href="#" class="uk-position-cover"></a>
-                          </div>
-                        </div>
-                        <div>
-                          <div class="uk-panel">
-                            <div class="uk-grid uk-grid-xsmall" data-uk-grid="">
-                              <div>
-                                <div
-                                  class="uk-panel uk-overflow-hidden uk-radius-small"
-                                >
-                                  <canvas width="150" height="120"></canvas>
-                                  <img
-                                    src="images/collections/09.jpg"
-                                    alt="Artwork"
-                                    class="uk-cover"
-                                    data-uk-cover=""
-                                  />
-                                  <a href="#" class="uk-position-cover"></a>
-                                </div>
-                              </div>
-                              <div>
-                                <div
-                                  class="uk-panel uk-overflow-hidden uk-radius-small"
-                                >
-                                  <canvas width="150" height="120"></canvas>
-                                  <img
-                                    src="images/collections/13.jpg"
-                                    alt="Artwork"
-                                    class="uk-cover"
-                                    data-uk-cover=""
-                                  />
-                                  <a href="#" class="uk-position-cover"></a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+			  
+			  <div>
+                <div class="uk-panel uk-radius-large uk-overflow-hidden">
+                  <canvas width="560" height="560"></canvas>
+                  <img
+                    src="images/collections/Arts.png"
+                    alt="Artwork"
+                    class="uk-cover"
+                    data-uk-cover
+                  />
                 </div>
               </div>
-              <div>
-                <div
-                  class="uk-card uk-card-small uk-radius uk-radius-large@m uk-border uk-box-shadow-xsmall dark:uk-background-gray-90"
-                >
-                  <div class="uk-panel">
-                    <div
-                      class="uk-grid uk-grid-xsmall uk-flex-between uk-flex-middle"
-                      data-uk-grid=""
-                    >
-                      <div class="uk-width-1-4">
-                        <div class="uk-panel">
-                          <canvas width="100" height="100"></canvas>
-                          <img
-                            src="images/collections/05.jpg"
-                            alt="Artwork"
-                            class="uk-radius-2xlarge uk-cover"
-                            data-uk-cover=""
-                          />
-                          <a href="#" class="uk-position-cover"></a>
-                        </div>
-                      </div>
-                      <div class="uk-width-expand">
-                        <h5 class="uk-h6 uk-h5@m uk-margin-remove">
-                          <a href="#" class="uk-link-reset">#Saphyre</a>
-                        </h5>
-                        <span class="uk-text-small">@By CryptoX</span>
-                      </div>
-                    </div>
-                    <div class="uk-panel uk-margin-medium-top">
-                      <div
-                        class="uk-grid uk-grid-xsmall uk-child-width-1-2 uk-grid-match"
-                        data-uk-grid=""
-                      >
-                        <div>
-                          <div
-                            class="uk-panel uk-overflow-hidden uk-radius-small"
-                          >
-                            <canvas width="400" height="350"></canvas>
-                            <img
-                              src="images/collections/14.jpg"
-                              alt="Artwork"
-                              class="uk-cover"
-                              data-uk-cover=""
-                            />
-                            <a href="#" class="uk-position-cover"></a>
-                          </div>
-                        </div>
-                        <div>
-                          <div class="uk-panel">
-                            <div class="uk-grid uk-grid-xsmall" data-uk-grid="">
-                              <div>
-                                <div
-                                  class="uk-panel uk-overflow-hidden uk-radius-small"
-                                >
-                                  <canvas width="150" height="120"></canvas>
-                                  <img
-                                    src="images/collections/15.jpg"
-                                    alt="Artwork"
-                                    class="uk-cover"
-                                    data-uk-cover=""
-                                  />
-                                  <a href="#" class="uk-position-cover"></a>
-                                </div>
-                              </div>
-                              <div>
-                                <div
-                                  class="uk-panel uk-overflow-hidden uk-radius-small"
-                                >
-                                  <canvas width="150" height="120"></canvas>
-                                  <img
-                                    src="images/collections/12.jpg"
-                                    alt="Artwork"
-                                    class="uk-cover"
-                                    data-uk-cover=""
-                                  />
-                                  <a href="#" class="uk-position-cover"></a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+			  
+			  
+			  <div>
+                <div class="uk-panel uk-radius-large uk-overflow-hidden">
+                  <canvas width="560" height="560"></canvas>
+                  <img
+                    src="images/collections/Sasuke.png"
+                    alt="Artwork"
+                    class="uk-cover"
+                    data-uk-cover
+                  />
                 </div>
               </div>
-              <div>
-                <div
-                  class="uk-card uk-card-small uk-radius uk-radius-large@m uk-border uk-box-shadow-xsmall dark:uk-background-gray-90"
-                >
-                  <div class="uk-panel">
-                    <div
-                      class="uk-grid uk-grid-xsmall uk-flex-between uk-flex-middle"
-                      data-uk-grid=""
-                    >
-                      <div class="uk-width-1-4">
-                        <div class="uk-panel">
-                          <canvas width="100" height="100"></canvas>
-                          <img
-                            src="images/collections/06.jpg"
-                            alt="Artwork"
-                            class="uk-radius-2xlarge uk-cover"
-                            data-uk-cover=""
-                          />
-                          <a href="#" class="uk-position-cover"></a>
-                        </div>
-                      </div>
-                      <div class="uk-width-expand">
-                        <h5 class="uk-h6 uk-h5@m uk-margin-remove">
-                          <a href="#" class="uk-link-reset">By CryptoX</a>
-                        </h5>
-                        <span class="uk-text-small">@By Texira</span>
-                      </div>
-                    </div>
-                    <div class="uk-panel uk-margin-medium-top">
-                      <div
-                        class="uk-grid uk-grid-xsmall uk-child-width-1-2 uk-grid-match"
-                        data-uk-grid=""
-                      >
-                        <div>
-                          <div
-                            class="uk-panel uk-overflow-hidden uk-radius-small"
-                          >
-                            <canvas width="400" height="350"></canvas>
-                            <img
-                              src="images/collections/06.jpg"
-                              alt="Artwork"
-                              class="uk-cover"
-                              data-uk-cover=""
-                            />
-                            <a href="#" class="uk-position-cover"></a>
-                          </div>
-                        </div>
-                        <div>
-                          <div class="uk-panel">
-                            <div class="uk-grid uk-grid-xsmall" data-uk-grid="">
-                              <div>
-                                <div
-                                  class="uk-panel uk-overflow-hidden uk-radius-small"
-                                >
-                                  <canvas width="150" height="120"></canvas>
-                                  <img
-                                    src="images/collections/18.jpg"
-                                    alt="Artwork"
-                                    class="uk-cover"
-                                    data-uk-cover=""
-                                  />
-                                  <a href="#" class="uk-position-cover"></a>
-                                </div>
-                              </div>
-                              <div>
-                                <div
-                                  class="uk-panel uk-overflow-hidden uk-radius-small"
-                                >
-                                  <canvas width="150" height="120"></canvas>
-                                  <img
-                                    src="images/collections/19.jpg"
-                                    alt="Artwork"
-                                    class="uk-cover"
-                                    data-uk-cover=""
-                                  />
-                                  <a href="#" class="uk-position-cover"></a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+			  
+			  
+			  <div>
+                <div class="uk-panel uk-radius-large uk-overflow-hidden">
+                  <canvas width="560" height="560"></canvas>
+                  <img
+                    src="images/collections/AR.png"
+                    alt="Artwork"
+                    class="uk-cover"
+                    data-uk-cover
+                  />
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
+			  
+			  <div>
+                <div class="uk-panel uk-radius-large uk-overflow-hidden">
+                  <canvas width="560" height="560"></canvas>
+                  <img
+                    src="images/collections/Spot.png"
+                    alt="Artwork"
+                    class="uk-cover"
+                    data-uk-cover
+                  />
+                </div>
+              </div>
+			  
+			  <div>
+                <div class="uk-panel uk-radius-large uk-overflow-hidden">
+                  <canvas width="560" height="560"></canvas>
+                  <img
+                    src="images/collections/Gwenie.png"
+                    alt="Artwork"
+                    class="uk-cover"
+                    data-uk-cover
+                  />
+                </div>
+              </div>
+			  
+			  <div>
+                <div class="uk-panel uk-radius-large uk-overflow-hidden">
+                  <canvas width="560" height="560"></canvas>
+                  <img
+                    src="images/collections/CARRRRRR.png"
+                    alt="Artwork"
+                    class="uk-cover"
+                    data-uk-cover
+                  />
+                </div>
+              </div>
+			  
+			  <div>
+                <div class="uk-panel uk-radius-large uk-overflow-hidden">
+                  <canvas width="560" height="560"></canvas>
+                  <img
+                    src="images/collections/Skii.png"
+                    alt="Artwork"
+                    class="uk-cover"
+                    data-uk-cover
+                  />
+                </div>
+              </div>
+			  
+			  <div>
+                <div class="uk-panel uk-radius-large uk-overflow-hidden">
+                  <canvas width="560" height="560"></canvas>
+                  <img
+                    src="images/collections/VH.png"
+                    alt="Artwork"
+                    class="uk-cover"
+                    data-uk-cover
+                  />
+                </div>
+              </div>
+			  
+			  
+			  <div>
+                <div class="uk-panel uk-radius-large uk-overflow-hidden">
+                  <canvas width="560" height="560"></canvas>
+                  <img
+                    src="images/collections/Knife.png"
+                    alt="Artwork"
+                    class="uk-cover"
+                    data-uk-cover
+                  />
+                </div>
+              </div>
+			  
+			  
+
+              <div>
+                <div class="uk-panel uk-radius-large uk-overflow-hidden">
+                  <canvas width="560" height="560"></canvas>
+                  <img
+                    src="images/collections/M44.png"
+                    alt="Artwork"
+                    class="uk-cover"
+                    data-uk-cover
+                  />
+                </div>
+              </div>
+			  
+              <div>
+                <div class="uk-panel uk-radius-large uk-overflow-hidden">
+                  <canvas width="560" height="560"></canvas>
+                  <img
+                    src="images/collections/004.jpg"
+                    alt="Artwork"
+                    class="uk-cover"
+                    data-uk-cover
+                  />
+                </div>
+              </div>
+			  
+              
+			  <div>
+                <div class="uk-panel uk-radius-large uk-overflow-hidden">
+                  <canvas width="560" height="560"></canvas>
+                  <img
+                    src="images/collections/003.jpg"
+                    alt="Artwork"
+                    class="uk-cover"
+                    data-uk-cover
+                  />
+                </div>
+              </div>
+			  
+              
+			  <div>
+                <div class="uk-panel uk-radius-large uk-overflow-hidden">
+                  <canvas width="560" height="560"></canvas>
+                  <img
+                    src="images/collections/Artwork.jpg"
+                    alt="Artwork"
+                    class="uk-cover"
+                    data-uk-cover
+                  />
+                </div>
+              </div>
       </div>
 
       <!-- collection end -->
@@ -1615,58 +1032,7 @@
       />
 
       <!-- cta start -->
-      <div class="uni-cta uk-section uk-panel uk-overflow-hidden">
-        <div class="uk-container">
-          <div class="uk-card uk-flex-center uk-text-center">
-            <div class="uk-panel uk-width-2xlarge@m uk-position-z-index">
-              <img
-                class="uk-position-top-left uni-animation-bounce uk-text-primary"
-                width="24"
-                src="images/objects/star-01.svg"
-                alt="star"
-                data-uk-svg
-                style="top: 0%; left: -16%"
-              />
-              <img
-                class="uk-position-bottom-right uni-animation-bounce uk-text-primary"
-                width="24"
-                src="images/objects/star-01.svg"
-                alt="star"
-                data-uk-svg
-                style="bottom: 16%; right: -8%"
-              />
-              <img
-                class="uk-position-top-right uni-animation-bounce uk-text-secondary"
-                width="40"
-                src="images/objects/star-01.svg"
-                alt="star"
-                data-uk-svg
-                style="top: 0%; right: -16%"
-              />
-              <img
-                class="uk-position-bottom-left uni-animation-bounce uk-text-secondary"
-                width="48"
-                src="images/objects/star-01.svg"
-                alt="star"
-                data-uk-svg
-                style="bottom: 16%; left: -8%"
-              />
-              <h2 class="uk-h3 uk-heading-d1@m uk-text-uppercase">
-                dM me via <br />
-                <span class="uk-text-gradient">DISCORD</span>
-              </h2>
-              <p class="uk-text-xlarge@m">
-                Invest and manage all your NFTs at one place.
-              </p>
-              <a
-                href="#"
-                class="uk-button uk-button-small uk-button-large@m uk-button-gradient uk-margin-small-top uk-margin-large-top@m"
-                >FLANSIE</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
+
 
       <!-- cta end -->
     </div>
@@ -1674,78 +1040,7 @@
     <!-- Wrapper end -->
 
     <!-- Footer start -->
-    <footer class="uni-footer uk-section uk-section-xlarge@m uk-panel">
-      <div
-        class="uk-position-cover uk-background-cover uk-visible@m"
-        data-src="images/footer-bg.png"
-        data-uk-img
-      ></div>
-      <div class="uk-container">
-        <div class="uk-panel">
-          <div class="uk-grid uk-flex-center uk-text-center" data-uk-grid>
-            <div class="uk-width-large@m">
-              <div class="uk-panel uk-position-z-index">
-                <ul
-                  class="uk-subnav uk-subnav-small uk-flex-center uk-text-gray-70"
-                >
-                  <li>
-                    <a href="https://twitter.com/unistudioco"
-                      ><span
-                        class="uk-icon uk-icon-large@m unicon-logo-twitter"
-                      ></span
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="https://discord.com/unistudioco"
-                      ><span
-                        class="uk-icon uk-icon-large@m unicon-logo-discord"
-                      ></span
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="https://instagram.com/unistudioco"
-                      ><span
-                        class="uk-icon uk-icon-large@m unicon-logo-instagram"
-                      ></span
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="https://facebook.com/unistudioco"
-                      ><span
-                        class="uk-icon uk-icon-large@m unicon-logo-facebook"
-                      ></span
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="https://youtube.com/unistudioco"
-                      ><span
-                        class="uk-icon uk-icon-large@m unicon-logo-youtube"
-                      ></span
-                    ></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="uk-panel uk-text-small uk-margin-medium-top">
-            <div
-              class="uk-grid uk-child-width-1-1@m uk-flex-center uk-text-center"
-              data-uk-grid
-            >
-              <div>
-                <ul class="uk-subnav uk-text-muted uk-flex-center">
-                  <li><a href="/html/nerko/main/privacy">Privacy</a></li>
-                  <li><a href="/html/nerko/main/terms">Terms of use</a></li>
-                </ul>
-              </div>
-              <div>
-                <p class="uk-text-muted">© 2023 Flansie. All rights reserved.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
+
 
     <!-- Footer end -->
 
